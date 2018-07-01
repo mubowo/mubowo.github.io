@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>Data Science 101</title>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Exo+2:400,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/assets/main.css">
+</head>
+
+<body>
+  <!-- header dan nav bar -->
+  <header class="main-header">
+    <div>
+      <a href="#home" class="main-header__brand">Data Science 101</a>
+    </div>
+
+    <!-- navigation bar -->
+    <nav class="main-nav">
+      <ul class="main-nav__items">
+        <li class="main-nav__item">
+          <a href="#Machine_Learning">Machine Learning</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="#Software">Software</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="#Introduction">Introduction</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="#Methods">Methods</a>
+        </li>
+
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- section 1 untuk main image-->
+    <section id="main-section">
+      <h1>
+        <a name="home"></a>Beginning Machine Learning</h1>
+    </section>
+
+    <section id="Machine_Learning">
+
+      <h2>Machine Learning</h2>
+
+      <p>Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically
+        learn and improve from experience without being explicitly programmed. Machine learning focuses on the development
+        of computer programs that can access data and use it learn for themselves.
+        <br>The process of learning begins with observations or data, such as examples, direct experience, or instruction, in
+        order to look for patterns in data and make better decisions in the future based on the examples that we provide.
+        The primary aim is to allow the computers learn automatically without human intervention or assistance and adjust
+        actions accordingly.
+        <br> Machine learning enables analysis of massive quantities of data. While it generally delivers faster, more accurate
+        results in order to identify profitable opportunities or dangerous risks, it may also require additional time and
+        resources to train it properly. Combining machine learning with AI and cognitive technologies can make it even more
+        effective in processing large volumes of information.
+      </p>
+
+      <div>
+        <article id="Software">
+          <h3>Software for Machine Learning</h3>
+          <p>The list of various required application for data science activity.</p>
+          <ol>
+            <li>Download and Install the most popular python data science platform
+              <a href="https://www.anaconda.com" target="_blank">Anaconda</a>
+            </li>
+            <p>Anaconda python is the free and complete package of python mainly to process data for data science to uncover
+              insights and create interactive visualizations.</p>
+            <li>Install Python Package Management pip</li>
+            <p>The pip command is a tool for installing and managing Python packages, such as those found in the Python Package
+              Index. PIP it's a replacement for easy_install. </p>
+            <li>Install Python libraries</li>
+            <ul>
+              <li>Install Numpy</li>
+              <li>Install Scikit-learn</li>
+              <li>Install matplotlib</li>
+              <li>Install Pandas</li>
+            </ul>
+          </ol>
+        </article>
+        <article id="Introduction">
+          <h3>Introduction</h3>
+          <p>Machine learning is a part of artifical intelligence which mainly being use for developing models of data that
+            being observed. The developed models of data compute by machine learning method are gained by programming the
+            computer to learn and identify the pattern of data. The model will try to identify the model by finding patterns
+            in the data and tries to provide the result by making prediction of data as the output</p>
+          <p>The pattern being discovered must generate some meaning or relate to the real condition where the data being collected,
+            in order to consider the output pattern lead to some advantage or provide benefits</p>
+          <p>
+            To make the process of develop data modelling using machine learning method, one should understand and study machine learning
+            algorithms. Using the algorithms of machine learning helps to build and generate model that helps to learn the
+            mistakes from the past and minimize possible error that could happen over time.
+          </p>
+          <p>How model works
+            <br> To train the algorithms we feed it with training data. A training set is the set of training examples whis is
+            use to train our machine learning algorithms. To test machine learning algorithms we need to have a separate
+            dataset, called a test data.
+            <br> Initially the program is trained with training examples, next the test data is fed to the program. The class
+            (predicted value) for each examples is not given with the testing data, and the program decides which class each
+            example should belong to. The target variable or class that the training example belongsto is then compared to
+            the predicted value, to know the accuracy of the algorithm.
+
+          </p>
+        </article>
+        <article>
+          <h3 id="Methods">Machine Learning Methods</h3>
+          <h1>Supervised machine learning</h1>
+          <p>In supervised learning the model is trained with labeled data then the algorithms predict the output from input
+            data. The model becomes in charge of data and we tell the model what to predict.
+            <br> Some examples of supervised machine learning algorithm include : K-Nearest Neighbors (KNN), Naive Bayes, Support
+            Vector Machine (SVM) and decision trees
+          </p>
+          <h3>Unsupervised machine learning</h3>
+          <p>In Unsupervised learning the model is trained with unlabelled data then the algorithms learn to inherent patterns
+            from the input data. In this algorithm, the model has no idea about the data but tries to find grouping in data.
+            <br> Some example of Unsupervised machine learning algorithm are : k-means clustering and DBSCAN.</p>
+          <p>Reinforcement learning
+            <br> in involves the model to learn from its past errors and correct it in the next iteration. In this way the model
+            improves its results. Think of it as the algorithms that optimize the life of measured data.
+          </p>
+          <p>Overfitting
+            <br> Overfitting means a model has trained too well and because of which the noisy data or the outliers of the data
+            are also considered as the part of the real data. It negatively impacts the performance of the model on new data.
+            In Overfitting the model effectively memorizes the data and predicts the output, but its accuracy will become
+            poor when there is completely new data point.
+
+          </p>
+          <p>Underfitting
+            <br>Underfitting means a model that can neither model the training data not generalize to new data. An underfitt
+            machine learning model is not a suitable model because it will have poor performance on the training data. It
+            happens when a model doesn't take into account enough information to accurately model real life.
+          </p>
+        </article>
+        <article>
+          <h3>Linear Regression</h3>
+          <p>
+            Linear Regression is a supervised learning algorithm which is used for prediction problems. It is a method to predict the
+            target variable by finding the best fit line between the independent and dependent variable. The best fit is
+            the line with minimum error from all the points.
+          </p>
+        </article>
+        <article>
+          <h3>Decision Trees</h3>
+          <p>Decision trees are supervised learning method used for classification and regression. The goal is to create a model
+            that predicts the value of a target variable by learning simple decision rules inferred from the data features.</p>
+        </article>
+        <article>
+          <h3>Naive Bayes</h3>
+          <p>Naive bayes is a supervised machine learning algorithm which is used to classify data into predefined classes.
+            It uses the concept of conditional probability to classify the test data.</p>
+        </article>
+        <article>
+          <h3>K-Nearest Neighbor (KNN)</h3>
+          <p>K-Nearest Neighbor is the simplest machine learning algorithm that is used for classification problems (supervised
+            learning). Whenever the model is fed with a testing data it finds the distance of that point with every other
+            point in the training data. Then it finds nearest k members for that point. </p>
+        </article>
+        <article>
+          <h3>Support Vector Machine (SVM)</h3>
+          <p>Support vector machine is a supervised machine learning algorithm which can be used for both classification and
+            regression problems. The goal of SVM is to find the hyperplane which divides the two classes of data. </p>
+        </article>
+        <article>
+          <h3 id="data_preprocessing">Data Preprocessing</h3>
+          <p>
+            The data that we usually get is raw data which cannot be used directly to train the model. We need to preprocess the data
+            so the model accurately predicts the output. The real world data are generally noisy i.e. contains errors, inconsistent
+            and incomplete. Because of these reasons data preprocessing is a important part of machine learning.
+          </p>
+          <ol>
+            Types of data preprocessing:
+            <li>
+              Data cleaning
+            </li>
+            <li>
+              Data reduction
+            </li>
+          </ol>
+
+          <p>Data cleaning There is some method to clean the data. The method that usually being used include :
+            <ol>
+              <li>Fill in missing values</li>
+              <li>Smooth out noisy data (using binning)</li>
+              <li>Outlier removal methods</li>
+            </ol>
+          </p>
+          <p>Data reduction Some process to reduce the data include the following:
+            <ol>
+              <li>Reducing the number of attributes</li>
+              <li>Reducing the number of attribute values</li>
+              <li>Reducing the number of tuples</li>
+            </ol>
+          </p>
+
+        </article>
+
+
+      </div>
+
+    </section>
+
+
+
+  </main>
+
+
+  <!-- footer -->
+  <footer>
+    <h5>copyright &copy; July 2018 by TunggulSM.</h5>
+  </footer>
+</body>
+
+</html>
